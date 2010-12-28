@@ -1,1 +1,13 @@
+================================================================================================================
+NOTICE - You will need to change the value at 0x38 in the final payload.bin to the correct load address + 0x2000
+================================================================================================================
+
 darksn0w is a PoC payload for the usb_cnotrol_msg(0x21, 2) exploit.
+
+Some code I had lying around from when the exploit was first found. Thought someone might find it useful.
+
+iboot.orig is an unencrypted copy of iBoot from the 3.1.2 iPhone 3G IPSW.
+
+Enjoy,
+
+DarkMalloc
